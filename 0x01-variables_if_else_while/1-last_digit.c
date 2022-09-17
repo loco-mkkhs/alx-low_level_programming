@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - rint the number is positive, zero, or negative
+* main - print if the number is positive, zero, or negative
 *
 * Description: using the main function
 * this program prints "programming is positive, zero, or negative
@@ -21,7 +21,7 @@ if (l > 5)
 {
 	printf("Last digit of %d is %d and is greater than 5\n", n, l);
 }
-else if (1 == 0)
+else if (l == 0)
 {
 	printf("Last digit of %d is %d and is 0\n", n, l);
 }
